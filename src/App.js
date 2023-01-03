@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { connect } from "react-redux";
+import { startAction } from "actions/startAction";
+import { stopAction } from "actions/stopAction";
 
 function App() {
   return (
@@ -22,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect()(App);
