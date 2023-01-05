@@ -1,11 +1,12 @@
 import './App.css';
-import Mutable from './components/mutable';
+import Login from './Login';
+import Profile from './Profile'
 
 function App() {
   return (
     <div className="App">
-      <Mutable/>
-      
+     <Profile/>
+     <Login/>
     </div>
   );
 }
